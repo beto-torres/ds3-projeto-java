@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: pg_container_spring
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=meu_projeto_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=admin
+    volumes:
+      # Isso garante que seus dados não sumam se você desligar o container
+      - pg_data:/var/lib/postgresql/data
+    restart: always
+
+volumes:
+  pg_data:
