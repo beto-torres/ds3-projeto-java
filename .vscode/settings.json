@@ -14,4 +14,5 @@
     "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
     "java.configuration.updateBuildConfiguration": "interactive"
+    
 }
