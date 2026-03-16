@@ -12,5 +12,6 @@
     "update.mode": "none",
     "telemetry.telemetryLevel": "off",
     "extensions.autoUpdate": false,
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
